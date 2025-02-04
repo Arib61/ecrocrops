@@ -1,1 +1,1 @@
-web: sudo apt update && sudo apt install -y openjdk-19-jdk && export JAVA_HOME=/usr/lib/jvm/java-19-openjdk-amd64 && chmod +x mvnw && ./mvnw clean package && java -jar target/ecocrops-0.0.1-SNAPSHOT.jar
+web: java -jar target/ecocrops-0.0.1-SNAPSHOT.jar
