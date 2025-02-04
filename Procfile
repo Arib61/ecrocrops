@@ -1,1 +1,1 @@
-web: export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64 && java -jar target/ecocrops-0.0.1-SNAPSHOT.jar
+web: sudo apt update && sudo apt install -y openjdk-21-jdk && export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64 && chmod +x mvnw && ./mvnw clean package && java -jar target/ecocrops-0.0.1-SNAPSHOT.jar
