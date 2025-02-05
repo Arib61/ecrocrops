@@ -1,1 +1,1 @@
-web: java -jar target/ecocrops-0.0.1-SNAPSHOT.jar
+web: export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64 && ./mvnw clean spring-boot:run
